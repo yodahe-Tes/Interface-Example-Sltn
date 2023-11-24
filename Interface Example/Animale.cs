@@ -9,13 +9,9 @@ namespace Interface_Example
     internal interface Animale
     {
 
-        
         void faVerso();
         void siMuove();
-
-        void showColor();
-        
-
+        string showColor();
         
     }
 }
