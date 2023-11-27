@@ -9,17 +9,19 @@ namespace Interface_Example
 {
     internal class Serpente : Animale
     {
-        private string name { get; set; }
-        public String colore { get; set; }
+        public string name { get; set; }
+        public string colore { get; set; }
         public int velocitaMaxKmh { get; set; }
-        public Boolean isDomestic = false;
 
-        public Serpente(string name, string colore, int velocitaMaxKmh,  bool isDomestic)
+        public bool isDomestic = false;
+
+        public Serpente(string name, string colore, int velocitaMaxKmh, bool isDomestic)
         {
             this.name = name;
             this.colore = colore;
             this.velocitaMaxKmh = velocitaMaxKmh;
             this.isDomestic = isDomestic;
+
         }
 
         public void faVerso()

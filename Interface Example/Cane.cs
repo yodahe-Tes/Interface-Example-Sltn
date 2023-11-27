@@ -10,7 +10,7 @@ namespace Interface_Example
     {
 
         public string name { get; set; }
-        public String colore { get; set; }
+        public string colore { get; set; }
         public int velocitaMaxKmh { get; set; }
 
         public bool isDomestic = true;
